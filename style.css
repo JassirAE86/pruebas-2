@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  color: #163451;
+  color: #1c3852;
   background: #f7fbff;
   line-height: 1.6;
 }
@@ -21,9 +21,9 @@ body {
   max-width: 1150px;
   margin: auto;
 }
-
+/*Opciones de la parte de arriba */
 header {
-  background: #073568;
+  background: #204674;
   color: white;
   position: sticky;
   top: 0;
@@ -58,7 +58,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #7ed5ff;
+  color: #50add4;
 }
 
 #menuBtn {
@@ -98,7 +98,7 @@ h1 {
 
 .hero-contenido p {
   margin-bottom: 20px;
-  color: #62758a;
+  color: #3f5369;
 }
 
 .boton {
@@ -117,10 +117,10 @@ h1 {
 .boton:hover {
   background: #073568;
 }
-
+/*imagen de la escuela de el inicio*/
 .ilustracion {
-  min-height: 300px;
-  background: linear-gradient(140deg, #0a4783, #50b9f4);
+  min-height: 360px;
+  background: linear-gradient(140deg, hsl(0, 0%, 100%), #fbfdfd);
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -398,4 +398,34 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+}
+/*imagen de la escuela*/
+.imagen-escuela{
+  width: 700%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: auto;
+  transform: translateY(-90px);
+}
+.robotica{
+   width: 400%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.Huerto{
+   width: 400%;
+  max-width: 358px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.Reciclaje{
+   width: 400%;
+  max-width: 399px;
+  height: auto;
+  display: block;
+  margin: auto;
 }
